@@ -8,7 +8,7 @@
 #meio{
     display: flex;
     margin: 150px;
-    justify-content: center;
+    flex-direction: column;
     
 }
 
@@ -23,8 +23,11 @@
 }
 
 .frase{
-    display: flex;
-    justify-content: center;
     font-family: 'Playfair Display', serif;
     color: rgba(97, 113, 114, 0.87);
+}
+
+#tudo{
+    display: flex;
+    flex-direction: column;
 }
